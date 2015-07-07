@@ -27,7 +27,7 @@ gem install sass
 ####3. Installation
 #####1. Cloning repo
 ```
-$ git clone https://github.com/IPRIT/?.git
+$ git clone https://github.com/IPRIT/qemy-nodejs-boilerplate.git
 ```
 #####2. Install required **node** modules
 ```

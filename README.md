@@ -50,10 +50,6 @@ To start the web server, run:
 ```
 npm start
 ```
-or
-```
-node app.js
-```
 To access the local server, enter the following URL into your web browser:
 ```
 http://localhost:3000/

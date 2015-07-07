@@ -1,0 +1,34 @@
+$media: screen;
+$laptop_min_width: 1024px;
+$phone_max_width: 799px;
+$phone_min_width: 300px;
+
+
+@mixin box-shadow($shadows...) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
+@mixin box-sizing($param) {
+  -webkit-box-sizing: $param;
+  -moz-box-sizing: $param;
+  box-sizing: $param;
+}
+@mixin transition($params...) {
+  -webkit-transition: $params;
+  -moz-transition: $params;
+  -ms-transition: $params;
+  -o-transition: $params;
+  transition: $params;
+}
+
+body {
+  overflow-x: hidden !important;
+  background: #f6f6f6;
+}
+
+.debug {
+  @include box-sizing(border-box);
+  border: 1px solid #000;
+  background: #00A000;
+}
